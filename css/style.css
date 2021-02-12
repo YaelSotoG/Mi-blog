@@ -16,14 +16,19 @@ nav{
     display: flex;
     align-items: center;
     top: 0px;
+    /* text-align: right;     */
 }
 nav ul{
+    /* padding-left:60vw; */
     list-style: none;
     display: flex;
     flex-direction: row;
+    /* float: right; */
+    /* align-items: right; */
 
 }
 nav ul li{
+    float: right;
     color: white;
     /* font-size:18px; */
     
@@ -42,6 +47,10 @@ button{
 .part_der{
     margin-left: 10px;
     flex-direction: row-reverse;
+    float: right;
+    /* align-items: right; */
+    /* position:right; */
+    /* justify-items: right; */
 }
 
 section{
@@ -50,6 +59,7 @@ section{
     border: 0px;
     /* line-height: 0px; */
     /* font-size:0px; */
+    /* justify-content:right; */ 
 }
 pre{
     /* margin:100px 100px 100px 100px; */
@@ -66,7 +76,7 @@ img{
 }
 
 #menu {
-    padding-right: 60vw;
+    padding-right: 6vw;
     /* margin-right:200%; */
 }
 
@@ -105,7 +115,7 @@ img{
     /* padding-right: 20%; */
 }
 .caja{
-    size: 20%;
+    /* size: 20%; */
     height: 200px;
     box-sizing: border-box;
     z-index: 4 ;
