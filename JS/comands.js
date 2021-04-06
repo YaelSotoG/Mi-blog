@@ -11,10 +11,11 @@ document.querySelector('#menu').addEventListener("click",()=>{
     // console.log(cambiar.innerHTML);
 });
 
-gsap.from('#text',{
+gsap.from('.texto',{
     duration:5,
     // backgroundColor:'grey',
-    opacity:0
+    opacity:0,
+    stagger:1,
 });
 gsap.from('.imagen',{
     duration:4,
