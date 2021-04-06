@@ -10,3 +10,16 @@ document.querySelector('#menu').addEventListener("click",()=>{
 
     // console.log(cambiar.innerHTML);
 });
+
+gsap.from('#text',{
+    duration:5,
+    // backgroundColor:'grey',
+    opacity:0
+});
+gsap.from('.imagen',{
+    duration:4,
+    ease:"power4.out",
+    y:-500,
+
+
+});

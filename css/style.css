@@ -374,7 +374,7 @@ img {
     }
 
     .cont.show{
-     visibility: visible;
+     /* visibility: visible; */
      transform: translatex(0px);
      /* width: 100px; */
      transition:transform .5s ease-in-out;
