@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
     margin: 0px;
     padding: 0px;
     background-color: black;
     overflow-x: hidden;
+    font-family: 'Bebas Neue';
     /*oculta el scroll de x*/
 }
 main{
@@ -44,7 +47,7 @@ button {
     border: 0;
     background: rgba(255, 255, 255, 0);
     color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     font-size: 18px;
 }
 
@@ -136,11 +139,12 @@ img {
     z-index: 4;
     /* position: absolute; */
     color: white;
-    text-align: center;
+    text-align: left;
     font-size: 70px;
     /* align-items: center; */
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-top: 40px;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    padding-top: 10%;
+    padding-left: 10%;
     transform: translate(0, -50%);
 }
 
@@ -149,7 +153,7 @@ img {
     z-index: 2;
     text-align: center;
     color: whitesmoke;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     top: 25%;
     left: 50%;
 }
@@ -188,16 +192,17 @@ img {
 }
 
 .titulo {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     /* align-items: center; */
     /* align-items: center; */
     /* align-content: center; */
-    text-align: center;
+    text-align: left;
     font-size: 42px;
     line-height: 0px;
     color: whitesmoke;
     /* padding-left: 40%; */
     padding-top: 6%;
+    padding-left:20% ;
     /* padding-bottom: 0%; */
 }
 
@@ -219,9 +224,18 @@ img {
 }
 .text{
     padding-top: 2%;
+    padding-left: 10%;
     align-items: center;
-    text-align: center;
+    text-align: left;
     color: white ;
+    font-size:40px;
+}
+.text_der{
+    padding-top: 2%;
+    padding-left: 10%;
+    align-items: center;
+    text-align: left;
+    color: black ;
     font-size:40px;
 }
 .expl{
@@ -232,9 +246,10 @@ img {
     
 }
 .logros{
-    background-color:gray;
+    background-color:white;
     align-items:center;
     text-align: center;
+    /* color: black; */
 
 
 }
@@ -251,12 +266,13 @@ img {
     font-size:15px;
     padding-right: 50px;
     padding-left: 20px;    
+    color: white;
 }
 .logos_logros{
     font-size:16px;
     padding-right:20px;
     padding-top: 20px;
-    color:rgb(0, 168, 232);
+    color:gray;
 }
 .datos_estud{
     /* display: flex; */
@@ -283,7 +299,10 @@ img {
 }
 
 .mifoto{
-    padding-left: 30%;
+    padding-left: 10%;
+    /* padding-top: 10%; */
+    width: 100%;
+    height: 100%;
 }
 
 .elementos{
@@ -300,17 +319,20 @@ img {
 
 .tip{
  
-    background-color:rgb(0, 126, 167);
+    background-color:black;
     
 }
 
 
 .imagenes_portafolio{
     /* border:10px 50px 0px 50px; */
-    padding: 10px 50px 0px 50px;
-    margin:10px 50px 0px 50px;
-    background-color:blue;
-    column-gap: 20px;
+    padding: 10px 50px 0px 50px ;
+    /* margin-top: 50px; */
+    /* margin:10px 50px 0px 50px; */
+    /* background-color: black; */
+    /* column-gap: 50px; */
+    width:80%;
+    height:100%;
 }
 /* .elemento {
     padding-top: 5%;
@@ -405,8 +427,8 @@ img {
 .container {
     display: flex;
     width: 100%;
-    height: 300px;
-    background-color: rgba(0, 168, 232, .87);
+    height: 100px;
+    background-color: black;
     /* padding-left: 50%; */
     align-items: center;
     text-align: center;
@@ -428,7 +450,7 @@ img {
 .contacto a {
     font-size: 200%;
     display: block;
-    background-color: gray;
+    /* background-color: gray; */
     color: white;
     line-height: 100px;
     border-radius: 40px;
@@ -448,7 +470,8 @@ img {
     /* transform: translate( 0, -20%); */
     border: 0px;
     margin: 0;
-    color:rgb(0, 168, 232);
+    color:grey;
+    background-color: white;
 }
 
 
@@ -519,7 +542,7 @@ img {
         border-radius: 5px;
         z-index: 999;
     }
-    .elemento {
+    .elementos {
         grid-template-columns: repeat(1, 1fr);
         /* height: 300px; */
     }
