@@ -10,6 +10,15 @@ document.querySelector('#menu').addEventListener("click",()=>{
 
     // console.log(cambiar.innerHTML);
 });
+// document.querySelector('#hab').addEventListener("click", ()=>{
+//         document.querySelector('html,body').animate({ scrollTop: ("#habil")},100);
+// });
+// $("#hab").click(function() {
+//     $('html, body').animate({
+//     scrollTop: $("#habil").offset().top
+//     }, 2000);
+//    });
+
 
 gsap.from('.texto',{
     duration:5,

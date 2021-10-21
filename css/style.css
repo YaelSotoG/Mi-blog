@@ -11,7 +11,13 @@ body {
 main{
     background-color:black;
 }
+html{
+    scroll-behavior: smooth;/*scroll suavisado*/
+}
+section[id]{/*todas las secciones que tengan id*/
+    scroll-margin-top:30px;
 
+}
 /* main{ */
 
 
