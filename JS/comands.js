@@ -21,15 +21,15 @@ document.querySelector('#menu').addEventListener("click",()=>{
 
 
 gsap.from('.texto',{
-    duration:5,
+    duration:3,
     // backgroundColor:'grey',
     opacity:0,
     stagger:1,
 });
 gsap.from('.imagen',{
-    duration:4,
+    duration:2,
     ease:"power4.out",
-    y:-500,
+    y:-400,
 
 
 });
